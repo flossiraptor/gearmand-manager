@@ -1,0 +1,24 @@
+{
+    "name": "flossiraptor/gearmand-manager",
+    "type": "library",
+    "description": "Query Gearmand job servers to list workers, capabilities, and capacity.",
+    "homepage": "https://github.com/flossiraptor/gearmand-manager",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Marcus Deglos",
+            "email": "marcus@deglos.com"
+        }
+    ],
+    "keywords": [
+        "gearmand"
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flossiraptor\\GearmandManager\\": "src/"
+        }
+    }
+}
